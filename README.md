@@ -1,3 +1,3 @@
 ## Resumos Git e Github
 
-## alteração no rep remoto
+Repositório criado para praticar os conteúdos de Git e Github aprendidos no Santander Bootcamp 2025 na DIO
