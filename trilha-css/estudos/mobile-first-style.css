@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav li {
+    background-color: lightgreen;
+    padding: 5px;
+    list-style: none;
+    border-radius: 4px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#skills {
+    background-color: lightgreen;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#education {
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 720px) {
+    main {
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 16px auto;
+    }
+
+    #presentation {
+        flex-basis: 500px
+    }
+
+    #skills, #education {
+        flex: 1;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        flex: 1;
+        text-align: center;
+    }
+
+
+}

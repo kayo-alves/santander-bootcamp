@@ -1,0 +1,41 @@
+[33mcommit d42c4e9f8e96cb9949c0b45f62d20590417ec78d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Kayo Silva <168098992+kayo-alves@users.noreply.github.com>
+Date:   Thu Jun 26 21:12:23 2025 -0300
+
+    fix: include html module task 2 properly
+
+[33mcommit f750888653cc0e447715037b9ba9a51b02f432ce[m
+Author: Kayo Alves <kayosilva577@gmail.com>
+Date:   Thu Jun 26 21:08:42 2025 -0300
+
+    feat: html module 1, task completed
+
+[33mcommit 9f43ea77697a0cd627abff0107aefde191810770[m
+Author: Kayo Alves <kayosilva577@gmail.com>
+Date:   Thu Jun 26 19:35:56 2025 -0300
+
+    feat: add html module
+
+[33mcommit 3da6673ed7cafdff4069df45e0e8c597e3ae8d81[m
+Author: Kayo Silva <168098992+kayo-alves@users.noreply.github.com>
+Date:   Mon Jun 16 21:02:45 2025 -0300
+
+    Update README.md
+
+[33mcommit bb26439ad6e1dfd01844d03b7d30c6ee649268b9[m
+Author: Kayo Silva <168098992+kayo-alves@users.noreply.github.com>
+Date:   Sat Jun 14 21:13:36 2025 -0300
+
+    Alteração no rep remoto
+
+[33mcommit 97bda9d04dc6be7663544f11ada68756c9688830[m
+Author: Kayo Alves <kayosilva577@gmail.com>
+Date:   Thu Jun 12 11:29:17 2025 -0300
+
+    adicona os arquivos gitignore e diretorio
+
+[33mcommit 4feaf76a19be0a15777ebf7c4a1b35e5be397ed7[m
+Author: Kayo Alves <kayosilva577@gmail.com>
+Date:   Thu Jun 12 11:12:47 2025 -0300
+
+    commit inicial
