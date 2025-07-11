@@ -1,7 +1,7 @@
 # Trilha CSS - Desafio 01
 ## Estilizando uma Landing Page
 
-O desafio 01 proprõe que seja contruída uma Landing Page com HTML e CSS, colocando em prática os conceitos aprendidos na trilha de CSS.
+O desafio 01 propõe que seja contruída uma Landing Page com HTML e CSS, colocando em prática os conceitos aprendidos na trilha de CSS.
 Nesse desafio, devemos criar utilizar um design protótipo do desafio e o arquivo HTML para criar a estilização CSS do zero, sem alterações nos outros arquivos.
 
 A imagem abaixo é o protótipo que se deve alcançar como resultado final.
