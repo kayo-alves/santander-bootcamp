@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: roboto, Arial, sans-serif;
+}
+
+body{
+    margin-top: 80px;
+}
+
+nav img {
+    width: 24px;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    min-width: 1000px;
+}
+
+/* Class created to standardize all web page buttons, increasing maintainability and code reuse */
+.button {
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: 0px solid;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-left, .header-center, .header-right
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+}
+
+.header-center {
+    gap: 0;
+}
+
+.header-center input {
+    padding: 0 15px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    width: 500px;
+    flex-shrink: 2;
+}
+
+.header-center .search-icon {
+    height: 42px;
+    padding: 0px;
+    margin: 0;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #f8f8f8;
+    border-radius: 0 40px 40px 0px;
+}
+
+.header-center .mic-icon {
+    margin-left: 20px;
+    border: none;
+    background-color: unset;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.header-right button, .header-left button {
+    border: none;
+    background-color: unset;   
+}
+
+.header-right .create-icon {
+    background-color: #f1f1f1;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+nav button {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    margin: 0 50px;
+    gap: 25px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-section iframe {
+    border-radius: 20px;
+}
+
+.video-section h1 {
+    margin: 15px 0px;
+}
+
+.video-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.video-options a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.channel-options {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.channel-options img {
+    border-radius: 50%;
+}
+
+.channel-options button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.video-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.like-deslike {
+    display: flex;
+}
+
+.like-button {
+    border-radius: 25px 0px 0px 25px;
+}   
+
+.deslike-button{
+    border-radius: 0px 25px 25px 0px;
+    border-left: 1px solid #ccc;
+}
+
+.video-description {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.video-suggestion a {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.video-suggested-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.video-suggested-info small {
+    color: #515151;
+}
+
+.video-suggestion img {
+    border-radius: 10px;
+}
