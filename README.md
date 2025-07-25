@@ -17,6 +17,7 @@ Página simples coms os primeiros conceitos
 - [HTML - Desafio 02](/trilha-html/trilha-html-desafio-2/) | Recriando a Wikipédia
 - [CSS - Desafio 01](/trilha-css/trilha-css-desafio-01/) | Criando uma Landing Page
 - [CSS - Desafio 02](/trilha-css/trilha-css-desafio-02/) | Recriando uma página do youtube com flexbox
+- [CSS - Desafio 03](/trilha-css/trilha-css-desafio-03/) | Recriando a página inicial do Discord com Mobile-first
 
 ## Contato
 Se quiser saber mais sobre mim, meu trabalho ou meus projetos, sinta-se a vontade para entrar em contato e tomarmos um café digital. 

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: open sans, arial, helvetica;
+}
+
+body {
+    padding: 0;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    padding: 45px 25px;
+    background-image: url(./images/Header\ Background.svg);
+    background-size: cover;
+    background-position: 75% 100%;
+}
+
+header h1 {
+    font-family: luckiest guy;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+header p {
+    color: white;
+}
+
+header button {
+    font-size: 1rem;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 0px;
+    color: #23272A;
+}
+
+header .button-2 {
+    color: white;
+    background-color: #23272A;
+}
+
+section {
+
+    padding: 25px;
+    margin: 25px 0px;
+}
+
+section h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #23272A;
+}
+
+section p {
+    color: #23272A;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 1000px;
+}
+
+.section-2, .section-4 {
+    background-color: #F6F6F6;
+}
+
+.section-4 h1 {
+    font-family: luckiest guy;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #23272A;
+    height: 140px;
+    display: grid;
+    place-items: center;
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 45px 20%;
+        background-image: url(./images/Header\ Background.svg);
+        background-size: cover;
+        text-align: center;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        margin: 15px 0;
+    }   
+
+    .header-button {
+        display: flex;
+        gap: 10px
+    }
+
+    header button {
+        padding: 10px 15px;
+        text-wrap: nowrap;
+    }
+
+
+    section {
+        padding: 0 10%;
+        margin: 35px 0;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    section h2 {
+        font-size: 2.8rem;
+        color: #23272A;
+    }
+
+    section p {
+        font-size: 1.5rem;
+
+    }
+
+    .section-2 {
+        flex-direction: row-reverse;
+    }
+
+    .section-4{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .section-4 h1 {
+        font-size: 2.8rem;
+    }
+}
